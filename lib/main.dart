@@ -37,6 +37,17 @@ class MyApp extends StatelessWidget {
                   color: Colors.green,
                   fontWeight: FontWeight.bold),
             ),
+            SizedBox(height: 5),
+            Text(
+              "Address: Kathmandu Nepal",
+              style: TextStyle(
+                color: Colors.red,
+              ),
+            ),
+            SizedBox(
+              height: 5,
+            ),
+            Text("Email: bimaly@gmail.com")
           ],
         ),
       ),
